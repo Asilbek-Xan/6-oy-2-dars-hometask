@@ -30,7 +30,7 @@ function Header() {
       </div>
 
       <img
-        src="./burger.svg"
+        src="/src/burger.svg"
         alt="menu"
         className={style.burger}
         onClick={() => setOpen(!open)}

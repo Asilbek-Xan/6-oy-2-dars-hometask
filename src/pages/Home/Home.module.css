@@ -100,10 +100,9 @@
   }
 }
 
-/*  ✅ 320px va undan kichik ekranlar uchun max Responsiv holat */
 @media (max-width: 320px) {
   .home {
-    padding: 0;          /* ✅ Padding butunlay yo‘q */
+    padding: 0;        
     text-align: center;
   }
 
@@ -136,10 +135,10 @@
   }
 
   .home-right img {
-    padding: 0;          /* ✅ Oldingi paddinglarni olib tashlaydi */
-    max-width: 100%;     /* ✅ Ekranga moslashadi */
+    padding: 0;
+    max-width: 100%;
     width: 100%;
-    margin: 0 auto;      /* ✅ O‘rtaga joylashtirilgan */
+    margin: 0 auto;
     display: block;
   }
 }
